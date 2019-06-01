@@ -1,0 +1,21 @@
+{
+  "name": "kmvan/mail-forward",
+  "description": "INN Mail Forward.",
+  "type": "project",
+  "require": {
+    "phpmailer/phpmailer": "^6.0"
+  },
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "kmvan",
+      "email": "kmvan.com@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "InnStudio\\MailForward\\": "src/"
+    }
+  }
+}
